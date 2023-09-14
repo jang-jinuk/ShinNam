@@ -79,7 +79,7 @@ li{
 a{
     text-decoration: none;
 }
-@media(max-width : 400px){
+@media(max-width : 380px){
     h1{
         font-size : 45px;
         text-align: center;
@@ -98,7 +98,8 @@ a{
         margin-left: 20px;
         margin-right: 20px;
         margin-bottom: 0;
-        width: 300px;
+        width: 400px;
+        display: inline;
     }
     table, td, th {
         border-collapse : collapse;
