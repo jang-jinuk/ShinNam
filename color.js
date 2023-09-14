@@ -22,15 +22,15 @@ var target = document.querySelector('body');
         Body.setBackgroundColor('black');
         Body.setColor('white');
         self.value = 'day';
-    
-        Links.setColor('powderblue') ;
+
+        Links.setColor('white') ;
 
     } else {
         Body.setBackgroundColor('white');
         Body.setColor('black');
         self.value = 'night';
-
-        Links.setColor('blue') ;
+        
+        Links.setColor('black') ;
 
     }
 }  
